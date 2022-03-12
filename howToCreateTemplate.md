@@ -1,5 +1,7 @@
 # How to create a template repo in GitHub
-Instructions on how to create a template repo for sass file structure. Note, this is just the method I used. I'm just learning this myself and this is not comprehensive so I am definitely open to changes or suggestions.
+Instructions on how to create a template repo for sass file structure.
+
+<em><strong>Note:</strong> These are just the methods I used. This is definitely not comprehensive - I am definitely open to changes or suggestions.</em>
 
 
 <strong>Creating your template and pushing it to GitHub</strong>
@@ -9,7 +11,7 @@ Instructions on how to create a template repo for sass file structure. Note, thi
 4. Create a new repo to be your template, and call it whatever you want (i.e. sassTemplate).
 5. Open your command line and cd into your template folder.
 6. Enter "git init".
-7. Stage and commit your files ("git add -A", then "git commit -m 'yourMessage'".
+7. Stage and commit your files ("git add -A", then "git commit -m 'yourMessage'").
 8. Enter "git remote add origin [and then your url here i.e.: https://github.com/yourusername/yourTemplateRepoName.git].
 9. Enter "git branch -M main".
 10. Enter "git push -u origin main".
@@ -19,9 +21,9 @@ Instructions on how to create a template repo for sass file structure. Note, thi
 <hr>
 <strong>Starting a new project using your template</strong>
 
-These are the methods that I know of so far. There may be better/more efficient ways that don't know about.
+These are the methods that I know of so far. There may be better/more efficient ways that don't know of.
 
-Method 1: Clone
+<strong>Method 1</strong>: Clone
 
 1. Open your command line and cd into the directory where you want your project's folder to live. Don't mkdir or create a folder there yet.
 2. Enter "git clone [yourTemplatesURL.git]"
@@ -34,7 +36,7 @@ Method 1: Clone
 9. Enter "git push -u origin main"
 10. Your new project is now ready to go!
 
-Method 2: Pull
+<strong>Method 2</strong>: Pull
 
 1. Open your command line and cd into the directory where you want your project's folder to be.
 2. mkdir/create a project folder
